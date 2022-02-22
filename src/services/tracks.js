@@ -32,7 +32,7 @@ route.get("/sorted", async (req, res, next) => {
       const sortedTracks = tracks.sort((a, b) => a.duration - b.duration).reverse();
       res.status(200).send(sortedTracks);
     } else {
-      //res.status(400).send({ message: "Bad request" });
+      res.status(400).send({ message: "Bad request" });
     }
   } catch (error) {
     console.log(error);
