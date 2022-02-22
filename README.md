@@ -15,8 +15,10 @@ GET /api/tracks/sorted/sortBy=duration&order=asc (desc) (fetches all tracks by d
 
 ## How to run
 
-npm start
+### `npm start`
 
-npm run dev
+or
+
+### `npm run dev`
 
 
